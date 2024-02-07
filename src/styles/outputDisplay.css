@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1e293b;
+}
+
+header>h1{
+    font-size: 55px;
+}
+
+.experience,
+.education{
+    border-bottom: 2px solid #1e293b;
+}
+
+.experience>h1{
+    text-decoration: underline;
+}
+
+.expDetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.education>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
